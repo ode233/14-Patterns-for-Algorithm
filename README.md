@@ -1,5 +1,5 @@
-# 14-Patterns-to-Ace-Any-Coding-Interview-Question
-14 Patterns to Ace Any Coding Interview Question + Dynamic Programming
+# 14-Patterns-for-Algorithm
+14-Patterns-for-Algorithm + Dynamic Programming
 
 # 1.滑动窗口  
 ---
