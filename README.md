@@ -1,6 +1,8 @@
 # 14-Patterns-for-Algorithm
 14-Patterns-for-Algorithm + Dynamic Programming
 
+[用python写算法题的一些常用语法总结](python-useful-grammar.md)
+
 # 1.滑动窗口  
 ---
 *  #### 适用范围：  
