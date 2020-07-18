@@ -20,3 +20,6 @@ heappop(heap)
 lambda arguments : expression  传入参数，执行表达式，返回表达式的结果  
 排序时指定按元素中的哪一个对象来排序：  
 list1.sort(key=lambda x: x[0])  x表示列表中的元素，指定按x[0]来排序
+
+*  #### bisect:
+bisect.bisect(list1, target) 使用二分搜索返回target在列表list1中应该插入的位置的索引（从小到大排列）
