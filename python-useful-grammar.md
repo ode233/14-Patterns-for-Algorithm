@@ -12,6 +12,14 @@ list1, list2 = zip(*zip(list1, list2))  # 解压返回原列表
 from collections import deque  
 ```
 
+*  #### defaultdict():
+```python
+# 带默认值的字典
+from collections import defaultdict
+# 默认值为0
+dic = defaultdict(int)  
+```
+
 *  #### heapq:
 ```python
 # 是最小优先队列  
