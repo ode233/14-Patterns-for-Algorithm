@@ -18,14 +18,12 @@
 循环结束后返回目标值
 
 *  #### 例题：  
-1. [Maximum Sum Subarray of Size K (easy) -- GeeksforGeeks](https://www.geeksforgeeks.org/find-maximum-minimum-sum-subarray-size-k/)(leetcode上未找到)
-2. [Smallest Subarray with a given sum (medium) -- LeetCode](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
-3. [Longest Substring with K Distinct Characters (medium, google) -- LintCode](https://www.lintcode.com/problem/longest-substring-with-at-most-k-distinct-characters/description)
-4. [Fruits into Baskets (medium) -- LeetCode](https://leetcode-cn.com/problems/fruit-into-baskets/)
-5. [No-repeat Substring (medium) -- LeetCode](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-6. [Longest Substring with Same Letters after Replacement (medium, amazon) -- GeeksforGeeks](https://practice.geeksforgeeks.org/problems/maximum-sub-string-after-at-most-k-changes/0)
-7. [Longest Subarray with Ones after Replacement (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/longest-subsegment-1s-formed-changing-k-0s/)(leetcode上未找到)
-8. [Sliding Window Maximum (hard) -- LeetCode](https://leetcode-cn.com/problems/sliding-window-maximum/)
+1. [Smallest Subarray with a given sum (medium) -- LeetCode](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+2. [Longest Substring with K Distinct Characters (medium, google) -- LeetCode](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+3. [Fruits into Baskets (medium) -- LeetCode](https://leetcode-cn.com/problems/fruit-into-baskets/)
+4. [No-repeat Substring (medium) -- LeetCode](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+5. [Longest Substring with Same Letters after Replacement (medium, amazon) -- LeetCode](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
+6. [Sliding Window Maximum (hard) -- LeetCode](https://leetcode-cn.com/problems/sliding-window-maximum/)
 
 # 2.双指针模式  
 ---
@@ -101,8 +99,7 @@ class ListNode:
 1. [Merge Intervals (medium) -- LeetCode](https://leetcode-cn.com/problems/merge-intervals/)
 2. [Insert Interval (medium) -- LeetCode](https://leetcode-cn.com/problems/insert-interval/)
 3. [Intervals Intersection (medium) -- LeetCode](https://leetcode-cn.com/problems/interval-list-intersections/)
-4. [Conflicting Appointments (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/given-n-appointments-find-conflicting-appointments/)（leetcode上未找到）
-5. [Non-overlapping Intervals (medium) -- LeetCode](https://leetcode-cn.com/problems/non-overlapping-intervals/)
+4. [Non-overlapping Intervals (medium) -- LeetCode](https://leetcode-cn.com/problems/non-overlapping-intervals/)
 
 # 5.循环排序  
 ---
@@ -164,9 +161,8 @@ c = tmp
 2. [Reverse Level Order Traversal (easy) -- LeetCode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 3. [Minimum Depth of a Binary Tree (easy) -- Leetcode](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 4. [Level Averages in a Binary Tree (easy) -- LeetCode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
-5. [Level Order Successor (easy) -- GeeksforGeeks](https://www.geeksforgeeks.org/level-order-successor-of-a-node-in-binary-tree/)(leetcode上没有)
-6. [Zigzag Traversal (medium) -- LeetCode](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
-7. [Connect Level Order Siblings (medium) -- LeetCode](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
+5. [Zigzag Traversal (medium) -- LeetCode](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+6. [Connect Level Order Siblings (medium) -- LeetCode](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
 
 # 8.树上的DFS
 ---
@@ -185,8 +181,7 @@ c = tmp
 1. [Binary Tree Path Sum (easy) -- LeetCode](https://leetcode-cn.com/problems/path-sum/)
 2. [All Paths for a Sum (medium) -- LeetCode](https://leetcode-cn.com/problems/path-sum-ii/)
 3. [Sum of Path Numbers (medium) -- LeetCode](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
-4. [Path With Given Sequence (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/check-root-leaf-path-given-sequence/)(leetcode上未找到)
-5. [Count Paths for a Sum (medium) -- LeetCode](https://leetcode-cn.com/problems/path-sum-iii/)
+4. [Count Paths for a Sum (medium) -- LeetCode](https://leetcode-cn.com/problems/path-sum-iii/)
 
 # 9.双堆模式
 ---
@@ -222,10 +217,9 @@ c = tmp
 1. [Subsets (easy) -- LeetCode](https://leetcode-cn.com/problems/subsets/)
 2. [Subsets With Duplicates (easy) -- LeetCode](https://leetcode-cn.com/problems/subsets-ii/)
 3. [Permutations (medium) -- LeetCode](https://leetcode-cn.com/problems/permutations/)
-4. [String Permutations by changing case (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/permute-string-changing-case/)
+4. [String Permutations by changing case (medium) -- LeetCode](https://leetcode-cn.com/problems/letter-case-permutation/)
 5. [Minimum Remove to Make Valid Parentheses (medium) -- LeetCode](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/)
-6. [Balanced Parentheses (hard) -- LeetCode](https://bradfieldcs.com/algos/stacks/balanced-parentheses/)(leetcode上没有)
-7. [Unique Generalized Abbreviations (hard) -- LintCode](https://www.lintcode.com/problem/generalized-abbreviation/)
+6. [Unique Generalized Abbreviations (hard) -- LeetCode](https://leetcode-cn.com/problems/generalized-abbreviation/)
 
 # 11.二分变种
 ---
@@ -238,14 +232,12 @@ c = tmp
 取整个区间的中间数，根据题目要求丢弃一半或另一半，直到达到终止条件返回结果。
 
 *  #### 例题：
-1. [Bitonic Array Maximum (easy) -- GeeksforGeeks](https://www.geeksforgeeks.org/maximum-sum-bitonic-subarray/)（leetcode上无）
-2. [Order-agnostic Binary Search (easy) -- Medium Blog](https://medium.com/better-programming/three-smart-ways-to-use-binary-search-in-coding-interviews-250ba296cb82)（leetcode上无）
-3. [Ceiling of a Number (medium) -- LeetCode](https://github.com/openset/leetcode/tree/master/problems/minimize-rounding-error-to-meet-target)
-4. [Next Letter (medium) -- LeetCode](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)
-5. [Number Range (medium) -- LeetCode](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-6. [Search in a Sorted Infinite Array (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/)
-7. [Kth Smallest Element in a Sorted Matrix (medium) -- LeetCode](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
-8. [Median of Two Sorted Arrays (hard) -- LeetCode](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+1. [Ceiling of a Number (medium) -- LeetCode](https://leetcode-cn.com/problems/minimize-rounding-error-to-meet-target/)
+2. [Next Letter (medium) -- LeetCode](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)
+3. [Number Range (medium) -- LeetCode](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+4. [Search in a Sorted Infinite Array (medium) -- LeetCode](https://leetcode-cn.com/problems/search-in-a-sorted-array-of-unknown-size/)
+5. [Kth Smallest Element in a Sorted Matrix (medium) -- LeetCode](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+6. [Median of Two Sorted Arrays (hard) -- LeetCode](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 
 # 12.前K大的数模式
 ---
@@ -268,7 +260,7 @@ heappop()
 4. [Frequency Sort (medium) -- LeetCode](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 5. [Kth Largest Number in a Stream (medium) - LeetCode](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 6. [‘K’ Closest Numbers (medium) -- LeetCode](https://leetcode-cn.com/problems/find-k-closest-elements/)
-7. [Maximum Distinct Elements (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/)
+7. [Maximum Distinct Elements (medium) -- LeetCode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
 8. [Rearrange String (medium) -- LeetCode](https://leetcode-cn.com/problems/reorganize-string/)
 
 # 13.K路归并  
@@ -284,9 +276,8 @@ heappop()
 
 *  #### 例题：
 1. [Merge K Sorted Lists (hard) -- LeetCode](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
-2. [Kth Smallest Number in M Sorted Lists (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/find-m-th-smallest-value-in-k-sorted-arrays/)（leetcode上无）
-3. [Kth Smallest Number in a Sorted Matrix (medium) -- LeetCode](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
-4. [Smallest Number Range (Hard) -- LeetCode](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/)
+2. [Kth Smallest Number in a Sorted Matrix (medium) -- LeetCode](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+3. [Smallest Number Range (Hard) -- LeetCode](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/)
 
 # 14.拓扑排序模式  
 ---
@@ -302,11 +293,9 @@ heappop()
 此时n等于0才表示可以形成拓扑排序。
 
 *  #### 例题：
-1. [Topological Sort (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/topological-sorting/)(leetcode无，就是个介绍）
-2. [Tasks Scheduling (medium) -- LeetCode](https://leetcode-cn.com/problems/course-schedule/)
-3. [Tasks Scheduling Order (medium) -- LeetCode](https://leetcode-cn.com/problems/course-schedule-ii/)
-4. [All Tasks Scheduling Orders (hard) -- GeeksforGeeks](https://www.geeksforgeeks.org/find-the-ordering-of-tasks-from-given-dependencies/)(the same as "Tasks Scheduling Order")
-5. [Alien Dictionary (hard) -- LintCode](https://www.lintcode.com/problem/alien-dictionary/description)
+1. [Tasks Scheduling (medium) -- LeetCode](https://leetcode-cn.com/problems/course-schedule/)
+2. [Tasks Scheduling Order (medium) -- LeetCode](https://leetcode-cn.com/problems/course-schedule-ii/)
+3. [Alien Dictionary (hard) -- LeetCode](https://leetcode-cn.com/problems/alien-dictionary/)
 
 # 15.动态规划
 ---
@@ -323,12 +312,8 @@ heappop()
 
 *  #### 例题：
 #### 1. 0/1 Knapsack (0/1背包类型)
-1. [0/1 Knapsack (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)（leetcode无）
-2. [Equal Subset Sum Partition (medium) -- LeetCode](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
-3. [Subset Sum (medium) -- GeeksforGeeks](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)（leetcode无）
-4. [Constrained Subset Sum (hard) -- LeetCode](https://leetcode-cn.com/problems/constrained-subset-sum/)
-5. [Minimum Partition (hard) -- LintCode](https://www.lintcode.com/problem/minimum-partition/description)（leetcode无）
-6. [Minimum Subset Sum Difference (hard) -- GeeksforGeeks](https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/)（leetcode无）
+1. [Equal Subset Sum Partition (medium) -- LeetCode](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
+2. [Constrained Subset Sum (hard) -- LeetCode](https://leetcode-cn.com/problems/constrained-subset-sum/)
 
 #### 2. Unbounded Knapsack，无限背包
 1. Unbounded Knapsack，无限背包
