@@ -177,6 +177,17 @@ c = tmp
 给递归函数传入根节点即可完成对整个二叉树的深度遍历。  
 在每次访问节点时进行相应的操作以满足题目要求（还可以根据需要增加递归函数的参数）。
 
+```python
+def dfs(node):
+	if not node:
+		return
+	# 前序遍历操作写这里
+	dfs(node.left)
+	# 中序遍历操作写这里
+	dfs(node.right)
+	# 后序遍历操作写这里
+```
+
 *  #### 例题：
 1. [Binary Tree Path Sum (easy) -- LeetCode](https://leetcode-cn.com/problems/path-sum/)
 2. [All Paths for a Sum (medium) -- LeetCode](https://leetcode-cn.com/problems/path-sum-ii/)
