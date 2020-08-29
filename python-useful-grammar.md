@@ -76,3 +76,16 @@ seq = ['one', 'two', 'three']
 for i, element in enumerate(seq):
     print(i, element)
 ```
+
+*  #### 反转:
+```python
+# 列表原地反转
+list1 = [1，2，3，4]
+list1.reverse()
+# 字符串或列表拷贝反转
+# 切片的参数分别是截取起始位置、截取终止位置、截取步长
+s = "abcd"
+new_s = s[::-1]
+# 指定反转2到3位
+new_s = s[2:0:-1]
+```
