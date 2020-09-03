@@ -37,6 +37,12 @@ lambda arguments : expression   # 传入参数，执行表达式，返回表达�
 list1.sort(key=lambda x: x[0])  # x表示列表中的元素，指定按x[0]来排序
 ```
 
+*  #### 自定义排序:
+```python
+# 自定义排序方法sort_rule
+list1.sort(key = functools.cmp_to_key(sort_rule))
+```
+
 *  #### bisect:
 ```python
 bisect.bisect(list1, target)    # 使用二分搜索返回target在列表list1中应该插入的位置的索引（从小到大排列）
